@@ -33,3 +33,5 @@ const reqHandler = (req,res) => {
   res.write('</html>')
   res.end()
 }
+
+module.exports = reqHandler
