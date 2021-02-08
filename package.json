@@ -1,0 +1,19 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RTEYL/learning-node-js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RTEYL/learning-node-js/issues"
+  },
+  "homepage": "https://github.com/RTEYL/learning-node-js#readme"
+}
