@@ -11,4 +11,8 @@ app.use(adminRoutes)
 
 app.use(shopRoutes)
 
+app.use((req, res, next) => {
+  res.status(404).send('Page Not Found')
+})
+
 app.listen(3000)
