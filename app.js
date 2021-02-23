@@ -14,8 +14,12 @@ const app = express()
 // app.set('view engine', 'pug')
 // app.set('view engine', 'hbs')
 app.set('view engine', 'ejs')
-app.set('views', 'views')
 
+//default setting
+
+  // app.set('views', 'views')
+
+//
 app.use(bodyParser.urlencoded({extended: false}))
 
 app.use(express.static(path.join(__dirname, 'public')))
